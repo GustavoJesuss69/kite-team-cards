@@ -7,7 +7,7 @@ import './style.css';
 import { TEAM, bio } from './team.js';
 import { SCRIPT, DURATION } from './script.js';
 
-const W = 1920, H = 1080, CW = 300, CH = 410, TETHER = 64;
+const W = 1920, H = 1080, CW = 300, CH = 436, TETHER = 64;
 const params = new URLSearchParams(location.search);
 const RENDER = params.has('render');
 const stage = document.getElementById('stage');
